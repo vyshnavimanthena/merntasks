@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  margin-top: 15px;
+
+}
+
+.para {
+  margin-left: 70px;
+  margin-top: 25px;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.btn {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border: none;
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+  cursor: pointer;
+}
+
+#btn-1 {
+  background-color: #4caf50;
+}
+#btn-2 {
+  background-color: #008cba;
+}
+#btn-3 {
+  background-color: #f44336;
+}
+#btn-4 {
+  background-color: #555;
+}
+
+.btn:hover {
+  width: 75px;
+  height: 75px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}

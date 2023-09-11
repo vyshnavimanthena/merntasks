@@ -1,0 +1,66 @@
+.header {
+  /* display: grid;
+    grid-template-columns: 1fr 3fr; */
+  display: flex;
+  background-color: rgb(233, 233, 87);
+  border: 2px dotted black;
+
+  padding-bottom: 200px;
+  margin-top: 80px;
+  margin-left: 400px;
+  margin-right: 450px;
+}
+
+nav {
+  display: flex;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: #fff;
+  padding: 5px;
+  width: 150px;
+  font-size: 20px;
+}
+.nav-1 {
+  color: rgb(161, 31, 161);
+  margin-top: 50px;
+  background: linear-gradient(to right, white 85%, black 15%);
+}
+
+.nav-2 {
+  color: blue;
+  background: linear-gradient(to right, white 85%, black 15%);
+}
+.nav-3 {
+  color: blue;
+  background: linear-gradient(to right, white 85%, black 15%);
+}
+.nav-4 {
+  color: blue;
+  background: linear-gradient(to right, white 85%, black 15%);
+}
+
+.nav-2:hover,
+.nav-3:hover,
+.nav-4:hover {
+  color: rgb(161, 31, 161);
+}
+.para {
+  margin-left: 50px;
+  color: rgb(137, 10, 122);
+  /* padding: 20px; */
+}
+.par {
+  font-size: 22px;
+}
+footer {
+  padding: 18px;
+  border-top: 2px dotted rgb(144, 3, 144);
+}
+.by {
+  margin: 0;
+  padding: 0;
+  margin-top: -15px;
+  margin-left: 18px;
+}
